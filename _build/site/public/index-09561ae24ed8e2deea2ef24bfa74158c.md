@@ -1,0 +1,54 @@
+# My Jupyter Book
+
+***BS Data Science**  University of Science and Technology of Southern Philippines*
+
+### Introduction
+
+This portfolio brings together projects, ideas, and experiences from
+different stages of my time in Data Science. It includes work involving
+data analysis, visualization, programming, and design.
+
+More than a record of completed projects, this serves as a space to look
+back on what has been explored, created, and learned along the way, and to
+leave something that can be revisited beyond the classroom.
+
+### Areas of Interest
+
+- Data Analysis
+- Data Visualization
+- Data Presentation
+- UI/UX and Interactive Design
+- Interactive Applications
+- Decision Support Systems
+
+### Tools & Technologies
+
+**Data & Programming**
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+**Databases & Development**
+
+- SQL
+- PostgreSQL
+- FastAPI
+- React
+
+**Design & Collaboration**
+
+- Figma
+- Git
+- GitHub
+
+### Projects
+
+#### Time Series Analysis
+
+An analysis of a time series dataset, focusing on its behavior, patterns,
+visualizations, and insights.
+
+[View Project](time_series_analysis.ipynb)

@@ -1,0 +1,85 @@
+/* ================================
+   Custom Portfolio Styling
+   Feel free to tweak the colors below!
+================================ */
+
+/* --- Color palette (change these hex codes to try new looks) --- */
+:root {
+  --accent: #7c5cff;       /* main accent color - buttons, links, highlights */
+  --accent-light: #efeaff; /* light accent background */
+  --text-dark: #2b2b33;
+  --bg-soft: #fafaff;
+}
+
+/* --- General page background --- */
+body {
+  background-color: var(--bg-soft);
+}
+
+/* --- Headings --- */
+h1 {
+  color: var(--text-dark);
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent-light);
+  padding-bottom: 6px;
+}
+
+h3 {
+  color: var(--text-dark);
+}
+
+/* --- Links --- */
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- Sidebar navigation highlight --- */
+nav a[aria-current="page"],
+nav a.active {
+  color: var(--accent) !important;
+  font-weight: 700;
+}
+
+/* --- Code blocks --- */
+pre, code {
+  border-radius: 8px;
+}
+
+pre {
+  border-left: 4px solid var(--accent);
+  background-color: #f5f3ff;
+}
+
+/* --- Blockquotes --- */
+blockquote {
+  border-left: 4px solid var(--accent);
+  background-color: var(--accent-light);
+  padding: 10px 16px;
+  border-radius: 0 8px 8px 0;
+}
+
+/* --- Project / next-page cards --- */
+a[class*="card"], div[class*="card"] {
+  border-radius: 12px !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+a[class*="card"]:hover, div[class*="card"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(124, 92, 255, 0.15);
+}
+
+/* --- Logo text next to logo --- */
+header {
+  font-weight: 700;
+}
