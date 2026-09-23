@@ -15,8 +15,8 @@ project:
       children:
         - file: Projects/Laboratory Task 2,3,4 (01_Understanding Deep Learning).ipynb
         - file: Projects/Laboratory Task 5 (02_PyTorch Basics).ipynb
-        - file: Projects/Laboratory Task 6 (E1 - CNN Implementation).ipynbnnnn
-        - file: "Projects/Custom Dataset/Example Loading Custom Dataset.ipynb"
+        - file: Projects/Laboratory Task 6 (E1 - CNN Implementation).ipynb
+        - file: "Projects/Custom Dataset/Activity Custom Dataset.ipynb"
           title: Custom Dataset
       
 
