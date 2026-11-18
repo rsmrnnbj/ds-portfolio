@@ -18,7 +18,10 @@ project:
         - file: Projects/Laboratory Task 2,3,4 (01_Understanding Deep Learning).ipynb
         - file: Projects/Laboratory Task 5 (02_PyTorch Basics).ipynb
         - file: Projects/Laboratory Task 6 (E1 - CNN Implementation).ipynb
-      
+    
+    - title: Blog
+      children:
+        - file: Blog/Deep Learning Blog Post.ipynb
 
     - title: Tips
       children:
